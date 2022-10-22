@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>后台管理</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="user">
+        <i class="fa fa-user"></i>
+    </div>
+    <div class="container">
+        <div class="box login">
+            <div class="form-content">
+                <div class="avtar">
+                    <div class="pic"><img src="1.jpg" alt=""></div>
+                </div>
+                <h1>Welcome</h1>
+                <form action="login.php" class="form" method="post">
+                    <div>
+                        <i class="fa fa-user-o"></i>
+                        <input type="text" placeholder="账户" id="zh" name="username">
+                    </div>
+                    <div>
+                        <i class="fa fa-key"></i>
+                        <input  type="password" placeholder="密码" id="mm" name="password">
+                    </div>
+                    <div class="btn">
+                       <button onclick="login2()">登录</button>
+                    </div>
+                </form>
+                <p class="btn-something">
+                    没有账户? <a href="./register.html">注册</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="../js/login.js"></script>
+    <script src="../js/register.js"></script> -->
+</body>
+</html>
